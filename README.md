@@ -49,9 +49,7 @@ In collaborative filtering for book recommendations, Pearson correlation is comm
 
 To kick off this project, start by importing essential libraries like Pandas, NumPy, and warnings. Load the books and ratings dataset using Pandas. In the data cleaning phase, select relevant columns (e.g., 'ISBN,' 'Book-Title,' 'Book-Author,' 'Book-Rating') and eliminate duplicate book titles for improved data quality.
 
-</p>For collaborative filtering, first, implement User-Based Collaborative Filtering by grouping data by 'User-ID,' sorting by book title, calculating Pearson correlation coefficients between users, and selecting the top correlated users. Move on to Item-Based Collaborative Filtering, aggregating ratings, generating recommendations based on weighted scores, and displaying the top book recommendations.
-
-Evaluate the collaborative filtering models for performance metrics and showcase the top recommended books to users. These steps lay the groundwork for a successful implementation of collaborative filtering for personalized book recommendations.
+For collaborative filtering, first, implement User-Based Collaborative Filtering by grouping data by 'User-ID,' sorting by book title, calculating Pearson correlation coefficients between users, and selecting the top correlated users. Move on to Item-Based Collaborative Filtering, aggregating ratings, generating recommendations based on weighted scores, and displaying the top book recommendations. Evaluate the collaborative filtering models for performance metrics and showcase the top recommended books to users. These steps lay the groundwork for a successful implementation of collaborative filtering for personalized book recommendations.
 
 <br>
 
